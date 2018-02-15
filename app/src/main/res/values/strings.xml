@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ExpenceTracker</string>
+    <string name="next">Next</string>
+    <string name="app_headline">Manage your money simply</string>
+    <string name="sms_read_message">Transform your SMS inbox into a daily intractive report</string>
+    <string name="why_sms_permission">We will manage you expances by reading your sms</string>
+    <string name="getStarted">GET STARTED</string>
+    <string name="app_desc">track your payments, through SMSs</string>
+    <string name="readingSms">Reading your SMSs…</string>
+    <string name="transactions">transactions</string>
+    <string name="transaction_time">last updated</string>
+    <string name="details">Details</string>
+</resources>

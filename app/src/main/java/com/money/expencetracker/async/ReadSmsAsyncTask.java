@@ -6,7 +6,6 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.provider.Telephony;
 import android.text.TextUtils;
-import android.util.Log;
 
 import com.money.expencetracker.data.db.AppDatabase;
 import com.money.expencetracker.data.db.AppDatabaseCreator;
@@ -144,9 +143,4 @@ public class ReadSmsAsyncTask extends BaseAsyncTask<Void, Integer, Void> {
         super.onProgressUpdate(values);
     }
 
-    @Override
-    protected void onCancelled() {
-        Log.e("onTaskCancelled"," Called");
-        super.onCancelled();
-    }
 }
